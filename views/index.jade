@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  div#container
+    canvas#whiteboard
+  section(id="toolbar", class="b-toolbar")
+    div(class="btn")
+      button(id="create_room", class="btn")
+        | Create room
+    div(class="btn")
+      label(for="choose_bg", id="setBackground")
+        | Set Background
+      input(type="file", accept="image/*", id="choose_bg")
+    div(class="btn")
+      label(for="stroke_color", id="setStrokeColor")
+        | Stoke Color : 
+      input(type="color", id="stroke_color", value="#ECD018")
+    div(class="btn")
+      button(id="clearDraw", class="btn")
+        | Clear
