@@ -1,6 +1,7 @@
 Real-time whiteborad 
 ==================== 
-## Forked from [wesbos/websocket-canvas-draw](https://github.com/wesbos/websocket-canvas-draw) ## 
+#### Forked from [wesbos/websocket-canvas-draw](https://github.com/wesbos/websocket-canvas-draw) 
+###### Use express as web framework
 -------------------- 
 
 REQUIREMENT
@@ -13,7 +14,5 @@ INSTALLATION
 ============
 
     git clone https://github.com/sizkin/websocket-canvas-draw.git 
-
-
-
+=
     npm install 
